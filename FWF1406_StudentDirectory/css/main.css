@@ -1,0 +1,36 @@
+body{
+background-color:lightgreen;
+
+}
+.panel{
+    padding-top: 20px;
+    width:500px;
+    margin: 0 auto;
+    background-color:lightgreen;
+    border: none;
+}
+
+.container{
+    width:96%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.media-object{
+    width:100px;
+    height:100px;    
+}
+
+.center{
+    width:100%;
+    margin-left: 200px;
+    overflow: hidden;
+    zoom: 1;
+    display:block;
+    
+}
+
+h2{
+    font-size:18px;
+}

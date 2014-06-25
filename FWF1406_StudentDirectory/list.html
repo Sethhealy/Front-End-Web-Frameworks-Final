@@ -1,0 +1,15 @@
+<h1>Students</h1>
+
+<div class="row">
+
+<div class="panel" ng-repeat="data in dataArray track by $index">
+   
+    <h2>{{data.name}}</h2>
+
+    <div class="center">
+  <a class="pull-left" href="#details/{{$index}}">
+    <img class="media-object" src="{{data.gravatar}}" alt="Gravatar">
+  </a>
+</div>
+</div>
+</div>
